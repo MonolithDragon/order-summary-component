@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
--[DesktopScreenShoot](./Screenshot 2021-12-24 Desktop Frontend Mentor Order summary card.png)
--[MobileScreenShoot](./Screenshot 2021-12-24 Mobile Frontend Mentor Order summary card.png)
+![Desktop ScreenShoot](./Screenshot 2021-12-24 Desktop Frontend Mentor Order summary card.png)
+![Mobile ScreenShoot](./Screenshot 2021-12-24 Mobile Frontend Mentor Order summary card.png)
 
 ## My process
 
