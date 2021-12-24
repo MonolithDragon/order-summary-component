@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+// Color
+$color-primary-pale-blue: hsl(225, 100%, 94%);
+$color-primary-bright-blue: hsl(245, 75%, 52%);
+$color-secondary-pale-blue: hsl(225, 100%, 98%);
+$color-desaturated-blue: hsl(224, 23%, 55%);
+$color-dark-blue: hsl(223, 47%, 23%);
+$color-light: hsl(0, 0%, 100%);
+$color-hover: hsl(245, 83%, 68%);
+
+// Typography
+$font-size-paragraph: 16px;
+$font-family-radhat: 'Red Hat Display', sans-serif;
+$font-weights: ("medium": 500, "bold": 700, "black": 900);
+
+@mixin weight($name) {
+    font-weight: map-get($map: $font-weights, $key: $name);
+}

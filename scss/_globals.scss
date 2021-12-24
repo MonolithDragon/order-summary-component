@@ -1,0 +1,50 @@
+@import 'variables';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    width:100%;
+    height:100%;
+    background-image: url('../../public/images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-position-y: -80px;
+    background-size: contain;
+    background-color: $color-primary-pale-blue;
+    font-family: $font-family-radhat;
+    font-size: $font-size-paragraph;
+    @include weight("medium");    
+}
+
+.container {
+    width: 375px;
+    margin: 70px auto;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 400px) {
+    body {
+        background-image: url('../../public/images/pattern-background-desktop.svg');
+    }
+
+    .container {
+        width: 400px;
+    }
+}

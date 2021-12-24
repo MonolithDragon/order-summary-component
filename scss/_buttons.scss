@@ -1,0 +1,35 @@
+.button-group {
+    display: block;
+}
+
+.btn {
+    width: 100%;
+}
+
+.btn-proceed {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: $color-primary-bright-blue;
+    color: $color-light;
+    @include weight("bold");
+    box-shadow: 0px 16px 20px 2px rgba(56, 42, 225, 0.15);
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-hover;
+    }
+}
+
+.btn-cancel {
+    border: none;
+    background-color: transparent;
+    color: $color-desaturated-blue;
+    @include weight("bold");
+
+    &:hover {
+        cursor: pointer;
+        color: $color-dark-blue;
+    }
+}
